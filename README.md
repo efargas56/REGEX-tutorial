@@ -2,9 +2,9 @@
 This is REGEX tutorial on how to use the email REGEX
 ## Table of content
 
-[Usage](#Usage)
-[Credits](#Credits)
-[Questions](#Questions)
+- [Usage](#Usage)
+- [Credits](#Credits)
+- [Questions](#Questions)
 ## Usage
 Open the gist-template.MD file and you will find a tutorial on how the email REGEX works.
 
