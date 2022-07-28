@@ -6,7 +6,7 @@ Welcome, this is a tutorial on what and how to use this Email REGEX (Regular Exp
 
 This is a regular expression that checks to see if your email is valid. it uses a series of special characters to make sure the information you are entering is accepted by the username text box you are trying to input into.
 this is the email REGEX we will be using in this tutorial.
-([\da-z\.-]+)\.([a-z\.]{2,6})$/
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$//
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -22,7 +22,7 @@ this is the email REGEX we will be using in this tutorial.
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
-([\da-z\.-]+)\.([a-z\.]{2,6})$/
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 this is the REGEX code for this tutorial which is used to validate an email string.
 ### Anchors
 Anchors are the type of validator tool the regex uses.
